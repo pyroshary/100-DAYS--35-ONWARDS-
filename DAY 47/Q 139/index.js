@@ -1,4 +1,5 @@
-var count = 5;
+"use strict";
+let count = 5;
 if (count > 0) {
     console.log("COunt is greater than 0");
 }

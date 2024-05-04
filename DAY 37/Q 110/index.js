@@ -1,3 +1,4 @@
+"use strict";
 function assignGrade(score) {
     if (score >= 90) {
         return "A";

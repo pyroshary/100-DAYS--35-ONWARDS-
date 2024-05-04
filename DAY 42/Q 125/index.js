@@ -1,4 +1,5 @@
-var rectangle = {
+"use strict";
+const rectangle = {
     width: 5,
     height: 10,
     calculatearea: function () {

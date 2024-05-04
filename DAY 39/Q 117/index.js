@@ -1,3 +1,4 @@
+"use strict";
 function checkGrade(grade) {
     switch (grade) {
         case "A":

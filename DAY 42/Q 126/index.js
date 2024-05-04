@@ -1,10 +1,10 @@
-var myObject = {
+"use strict";
+const myObject = {
     property: "Value",
     outerMethod: function () {
-        var _this = this;
         console.log(this.property);
-        var innerMethod = function () {
-            console.log(_this.property);
+        const innerMethod = () => {
+            console.log(this.property);
         };
         innerMethod();
     },

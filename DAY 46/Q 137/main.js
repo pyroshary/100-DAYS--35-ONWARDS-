@@ -1,3 +1,4 @@
+"use strict";
 try {
     throw new Error("Something went wrong");
 }

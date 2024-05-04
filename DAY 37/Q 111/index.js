@@ -1,3 +1,4 @@
+"use strict";
 function categorizeAge(age) {
     if (age <= 5) {
         return "BABY";

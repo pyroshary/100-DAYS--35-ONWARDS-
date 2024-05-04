@@ -1,3 +1,4 @@
+"use strict";
 function stringsEqual(str1, str2) {
     return str1.toLocaleLowerCase() === str2.toLocaleLowerCase();
 }

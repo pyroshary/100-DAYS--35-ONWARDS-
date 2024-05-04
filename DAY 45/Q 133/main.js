@@ -1,9 +1,10 @@
-var person = {
+"use strict";
+const person = {
     name: "Shary",
     age: 23,
     city: "Karachi"
 };
-var jsonString = JSON.stringify(person);
+const jsonString = JSON.stringify(person);
 //printed normally
 console.log(person);
 //printed with json

@@ -1,8 +1,3 @@
-var multiplyParameters = function () {
-    var numbers = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        numbers[_i] = arguments[_i];
-    }
-    return numbers.reduce(function (total, number) { return total * number; }, 1);
-};
+"use strict";
+const multiplyParameters = (...numbers) => numbers.reduce((total, number) => total * number, 1);
 console.log(multiplyParameters(2, 3, 4, 5));

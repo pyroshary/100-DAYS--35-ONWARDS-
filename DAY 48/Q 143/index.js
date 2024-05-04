@@ -1,5 +1,6 @@
-var conditionalPromises = new Promise(function (resolve, reject) {
-    var success = Math.random() > 5;
+"use strict";
+const conditionalPromises = new Promise((resolve, reject) => {
+    const success = Math.random() > 0.5;
     if (success) {
         resolve("Sucess!");
     }
@@ -8,5 +9,5 @@ var conditionalPromises = new Promise(function (resolve, reject) {
     }
 });
 conditionalPromises
-    .then(function (result) { return console.log(result); })
-    .catch(function (error) { return console.log(error.message); });
+    .then((result) => console.log(result))
+    .catch((error) => console.log(error.message));

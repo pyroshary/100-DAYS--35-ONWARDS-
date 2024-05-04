@@ -1,14 +1,15 @@
+"use strict";
 function fetchData(callback) {
-    var error = new Error("Failed to fetch data");
-    var data = "Some data";
-    if (Math.random()) {
+    const error = new Error("Failed to fetch data");
+    const data = "Some data";
+    if (Math.random() > 0.5) {
         callback(null, data);
     }
     else {
         callback(error);
     }
 }
-fetchData(function (error, data) {
+fetchData((error, data) => {
     if (error) {
         console.log(error.message);
     }

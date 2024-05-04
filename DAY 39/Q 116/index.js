@@ -1,3 +1,4 @@
+"use strict";
 function logSeason(month) {
     switch (month) {
         case 12:

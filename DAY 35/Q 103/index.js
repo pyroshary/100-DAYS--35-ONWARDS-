@@ -1,3 +1,4 @@
+"use strict";
 function getrandomBoolean() {
     return Math.random() > 0.8;
 }

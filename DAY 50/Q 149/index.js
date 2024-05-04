@@ -1,5 +1,6 @@
+"use strict";
 console.log("Start");
-setTimeout(function () {
+setTimeout(() => {
     console.log("Callback excuted");
-});
+}, 0);
 console.log("END");

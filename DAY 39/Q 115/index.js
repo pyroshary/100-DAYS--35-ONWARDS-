@@ -1,31 +1,29 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-function logDayOfWeek(dayNumber) {
-    switch (dayNumber) {
+function daysoftheWeek(daynumber) {
+    switch (daynumber) {
         case 1:
-            console.log("Sunday");
+            console.log("SUNDAY");
             break;
         case 2:
-            console.log("Monday");
+            console.log("MONDAY");
             break;
         case 3:
-            console.log("Tuesday");
+            console.log("TUESDAY");
             break;
         case 4:
-            console.log("Wednesday");
+            console.log("WEDNESDAY");
             break;
         case 5:
-            console.log("Thursday");
+            console.log("THURSDAY");
             break;
         case 6:
-            console.log("Friday");
+            console.log("FRIDAY");
             break;
         case 7:
-            console.log("Saturday");
+            console.log("SATURAY");
             break;
         default:
-            console.log("Invalid day number");
-            break;
+            console.log("Invalid number");
     }
 }
-logDayOfWeek(3);
+daysoftheWeek(5);
